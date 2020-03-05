@@ -1,0 +1,36 @@
+.task {
+    margin-top: 50px;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.task-head {
+	margin: 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.task-search form input,
+.task-search form button {
+	padding: 5px;
+}
+.task-head .btn {
+	text-decoration: none;
+	color: #000;
+}
+
+.task-head .a-btn {
+	border: 1px solid #000;
+}
+
+.task-head .f-btn {
+	background: #eee;
+	border-radius: 0;
+}
+
+.field-taskapp-desc {
+	display: inline-block;
+}
+
+.f-active {
+	background: #8affff !important;
+}
